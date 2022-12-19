@@ -13,7 +13,9 @@
         class Queue
         {
             private Node Reziq, Putera, Prev = null;
-            public Queue()
+        private int val;
+
+        public Queue()
             {
                 Reziq = Putera = null;
             }
